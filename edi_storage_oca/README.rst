@@ -46,9 +46,9 @@ Inside this folder you have this hierarchy:
        |- done
        |- error
 
--  pending folder contains files that have been just sent
--  done folder contains files that have been processes successfully
--  error folder contains files with errors and cannot be processed
+- pending folder contains files that have been just sent
+- done folder contains files that have been processes successfully
+- error folder contains files with errors and cannot be processed
 
 The storage handlers take care of reading files and putting files
 in/from the right place and update exchange records data accordingly.
@@ -67,7 +67,7 @@ backend.
 Known issues / Roadmap
 ======================
 
--  clean deprecated methods in the storage
+- clean deprecated methods in the storage
 
 Bug Tracker
 ===========
@@ -90,10 +90,10 @@ Authors
 Contributors
 ------------
 
--  Simone Orsi <simahawk@gmail.com>
--  Foram Shah <foram.shah@initos.com>
--  Lois Rilo <lois.rilo@forgeflow.com>
--  Duong (Tran Quoc) <duongtq@trobz.com>
+- Simone Orsi <simahawk@gmail.com>
+- Foram Shah <foram.shah@initos.com>
+- Lois Rilo <lois.rilo@forgeflow.com>
+- Duong (Tran Quoc) <duongtq@trobz.com>
 
 Other credits
 -------------
