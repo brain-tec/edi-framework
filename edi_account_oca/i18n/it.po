@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-07-29 08:58+0000\n"
+"PO-Revision-Date: 2024-12-04 11:06+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: none\n"
 "Language: it\n"
@@ -38,6 +38,11 @@ msgstr "Disabilita automatico"
 #: model_terms:ir.ui.view,arch_db:edi_account_oca.view_partner_form
 msgid "EDI Configuration"
 msgstr "Configurazione EDI"
+
+#. module: edi_account_oca
+#: model:ir.model.fields,field_description:edi_account_oca.field_account_move__origin_edi_endpoint_id
+msgid "EDI origin endpoint"
+msgstr "Endpoint origine EDI"
 
 #. module: edi_account_oca
 #: model:ir.model.fields,field_description:edi_account_oca.field_account_move__origin_exchange_type_id
@@ -93,6 +98,11 @@ msgstr "Registrazione contabile"
 #: model:ir.ui.menu,name:edi_account_oca.menu_account_edi_exchange_record
 msgid "Moves"
 msgstr "Movimenti"
+
+#. module: edi_account_oca
+#: model:ir.model.fields,help:edi_account_oca.field_account_move__origin_edi_endpoint_id
+msgid "Record generated via this endpoint"
+msgstr "Record generato attraverso questo endpoint"
 
 #. module: edi_account_oca
 #: model:ir.model.fields,help:edi_account_oca.field_account_bank_statement_line__edi_disable_auto
