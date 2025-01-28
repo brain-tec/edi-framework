@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-01-27 17:06+0000\n"
+"PO-Revision-Date: 2025-01-28 19:06+0000\n"
 "Last-Translator: Alexandre Fayolle <alexandre.fayolle@camptocamp.com>\n"
 "Language-Team: none\n"
 "Language: fr\n"
@@ -1362,27 +1362,28 @@ msgstr ""
 #. module: edi_oca
 #: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_record_view_search
 msgid "Successful"
-msgstr ""
+msgstr "Succès"
 
 #. module: edi_oca
 #: model:ir.model.constraint,message:edi_oca.constraint_edi_exchange_type_code_uniq
 msgid "The code must be unique per backend"
-msgstr ""
+msgstr "Le code doit être unique pour un backend donné"
 
 #. module: edi_oca
 #: model:ir.model.constraint,message:edi_oca.constraint_edi_exchange_record_external_identifier_uniq
 msgid "The external_identifier must be unique for a type and a backend."
 msgstr ""
+"L'identifiant externe doit être unique pour un type et un backend donnés."
 
 #. module: edi_oca
 #: model:ir.model.constraint,message:edi_oca.constraint_edi_exchange_record_identifier_uniq
 msgid "The identifier must be unique."
-msgstr ""
+msgstr "L'identifiant doit être unique."
 
 #. module: edi_oca
 #: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__retryable
 msgid "The record state can be rolled back manually in case of failure."
-msgstr ""
+msgstr "L'état du message peut être réinitialisé manuellement en cas d'échec."
 
 #. module: edi_oca
 #: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type_rule__type_id
