@@ -2,28 +2,22 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 {
-    "name": "EDI Sales UBL",
+    "name": "EDI sale endpoint integration",
     "summary": """
-        Configuration and special behaviors for EDI UBL exchanges related to sales.
+        Glue module between edi_sale_oca and edi_endpoint_oca.
     """,
-    "version": "18.0.1.0.1",
+    "version": "18.0.1.0.0",
     "development_status": "Alpha",
     "license": "AGPL-3",
     "author": "Camptocamp,Odoo Community Association (OCA)",
+    "maintainers": ["simahawk"],
     "website": "https://github.com/OCA/edi-framework",
     "depends": [
         "edi_sale_oca",
-        "edi_state_oca",
-        "edi_ubl_oca",
-        # This could be made optional
-        # but the delivery part would need another source of data
-        "sale_stock",
+        "edi_endpoint_oca",
     ],
     "data": [
-        "data/edi_state.xml",
         "views/sale_order.xml",
     ],
-    "demo": [
-        "demo/edi_exchange_type.xml",
-    ],
+    "auto_install": True,
 }
