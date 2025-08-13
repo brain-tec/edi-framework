@@ -59,6 +59,7 @@ class TestProcessComponent(EDIBackendCommonComponentTestCase):
         self.assertFalse(picking.exchange_record_ids)
         move_a.move_line_ids.quantity = 4
         picking.button_validate()
+        self.assertEqual(len(picking.exchange_record_ids), 1)
         record1 = picking.exchange_record_ids
         self.assertEqual(record1.type_id, self.exc_type_out)
         self.assertEqual(record1._get_file_content(), "TRANSFER VALIDATED")
