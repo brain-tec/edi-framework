@@ -7,13 +7,13 @@
     "summary": """
     Allow to assign specific EDI states to related records.
     """,
-    "version": "18.0.1.0.1",
+    "version": "18.0.1.0.2",
     "development_status": "Alpha",
     "license": "LGPL-3",
     "website": "https://github.com/OCA/edi-framework",
     "author": "Camptocamp, Odoo Community Association (OCA)",
     "maintainers": ["simahawk"],
-    "depends": ["edi_oca"],
+    "depends": ["edi_core_oca"],
     "data": [
         "security/ir_model_access.xml",
         "views/edi_exchange_type.xml",

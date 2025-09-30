@@ -6,14 +6,14 @@
     "summary": """
         Configuration and special behaviors for EDI on sales.
     """,
-    "version": "18.0.1.0.0",
+    "version": "18.0.1.0.1",
     "development_status": "Alpha",
     "license": "AGPL-3",
     "author": "Camptocamp,Odoo Community Association (OCA)",
     "maintainers": ["simahawk"],
     "website": "https://github.com/OCA/edi-framework",
     "depends": [
-        "edi_oca",
+        "edi_core_oca",
         "edi_record_metadata_oca",
         "sale",
     ],

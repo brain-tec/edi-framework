@@ -7,12 +7,12 @@
     "summary": """
         Base module for EDI exchange using XML files.
     """,
-    "version": "18.0.1.0.1",
+    "version": "18.0.1.0.2",
     "development_status": "Alpha",
     "license": "LGPL-3",
     "author": "ACSONE,Camptocamp,Odoo Community Association (OCA)",
     "maintainers": ["simahawk"],
     "website": "https://github.com/OCA/edi-framework",
-    "depends": ["edi_oca", "component"],
+    "depends": ["edi_component_oca"],
     "external_dependencies": {"python": ["xmltodict"]},
 }
