@@ -1,4 +1,6 @@
+[![Support the OCA](https://odoo-community.org/readme-banner-image)](https://odoo-community.org/get-involved?utm_source=repo-readme)
 
+# edi-framework
 [![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/edi-framework&target_branch=19.0)
 [![Pre-commit Status](https://github.com/OCA/edi-framework/actions/workflows/pre-commit.yml/badge.svg?branch=19.0)](https://github.com/OCA/edi-framework/actions/workflows/pre-commit.yml?query=branch%3A19.0)
 [![Build Status](https://github.com/OCA/edi-framework/actions/workflows/test.yml/badge.svg?branch=19.0)](https://github.com/OCA/edi-framework/actions/workflows/test.yml?query=branch%3A19.0)
@@ -6,8 +8,6 @@
 [![Translation Status](https://translation.odoo-community.org/widgets/edi-framework-19-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/edi-framework-19-0/?utm_source=widget)
 
 <!-- /!\ do not modify above this line -->
-
-# edi-framework
 
 edi-framework
 
@@ -17,7 +17,11 @@ edi-framework
 
 [//]: # (addons)
 
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[edi_core_oca](edi_core_oca/) | 19.0.1.0.0 | <a href='https://github.com/simahawk'><img src='https://github.com/simahawk.png' width='32' height='32' style='border-radius:50%;' alt='simahawk'/></a> <a href='https://github.com/etobella'><img src='https://github.com/etobella.png' width='32' height='32' style='border-radius:50%;' alt='etobella'/></a> | Define backends, exchange types, exchange records, basic automation and views for handling EDI exchanges.
 
 [//]: # (end addons)
 
