@@ -1,2 +1,4 @@
 odoo-test-helper
 xmlunittest
+
+odoo-addon-edi_core_oca @ git+https://github.com/OCA/edi-framework@refs/pull/275/head#subdirectory=edi_core_oca
