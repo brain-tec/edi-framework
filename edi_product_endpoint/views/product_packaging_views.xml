@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2026 Camptocamp SA
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record id="product_packaging_form_view" model="ir.ui.view">
+        <field
+            name="name"
+        >product.packaging.form.view - edi_product_endpoint</field>
+        <field name="model">product.packaging</field>
+        <field
+            name="inherit_id"
+            ref="edi_product_oca.product_packaging_form_view"
+        />
+        <field name="arch" type="xml">
+            <group name="edi_main" position="inside">
+                <field name="origin_edi_endpoint_id" />
+            </group>
+        </field>
+    </record>
+</odoo>
